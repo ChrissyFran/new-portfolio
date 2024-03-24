@@ -1,11 +1,61 @@
 html {
   height: 100%;
   width: 100%;
+  box-sizing: border-box; /*The lesson mentioned putting the "box-sizing: border-box code" at the top of the CSS page for every project. I do not understand it.*/
 }
-
+/*I should have used more classes. I need to get into the habit of using classes.*/ 
 header {
-  background-color: #38571a;
+  background-color: #fcbf49;
   text-align: center;
-  font-family: "Gill Sans", Helvetica, sans-serif
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  /*I also do not understand margin and padding as well as I would like. It was especially tricky when I tried to color my footer the same as my header. There was a large, white gap in between the main and the footer.*/
+  margin: 1px; 
+  padding: 1px;
 }
 
+h2 {
+  color: #495057
+}
+/*Finally, I understand how to drag the image into the replit files! I wanted an oval shape to the image and the picture is a nice size.*/
+img {
+  width: 300px;
+  border-radius: 50%;
+}
+/*I wanted to center the image on the page.*/
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+main {
+  background-color: #faedcd;
+}
+
+h3 {
+  font-family: Rockwell, 'Times New Roman', serif;
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color: #fcbf49/*I don't know if the <main> or <footer>margins or paddings needs adjusting. Why is there a white gap between the <main> and <footer>?*/
+}
+
+p {
+  margin-top: 20px;
+  background-color: #faedcd;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: left;
+}
+
+ul {
+  font-family: Rockwell, "Times New Roman", serif;
+  font-size: 15px;
+}
+  
+a:link    { color: blue }
+a:visited { color: purple} /*I wanted all of the links to be purple. I visited them all, but the Email Me link is different.*/
+a:hover   { color: red}
+a:active  { color: yellow }
