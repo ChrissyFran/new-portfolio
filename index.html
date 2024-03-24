@@ -1,30 +1,54 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <title>replit</title>
-  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link href="style.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
-  <header>
-    <h1>Christina Lindsay</h1> <h3>Software Developer</h3>
-    <nav> Intro About Contact
-    </nav>
+  
+  <header><!--I went with the recommended sizes, <h1>, for the title of the page; <h2> for the sub heading; it shows the hierarchy of importance: my name and job title.-->
+    <h1>Christina Lindsay</h1> 
+    <h2>Software Developer</h2>
   </header>
   <main>
-    <article>
-      <img src="christinalindsay/Downloads/profile-pic-background-removed.png" width="250" alt="Profile picture of Christina Lindsay"/>
-      <!--I need an image of myself here. I don't remember how to add an image, but will look at my notes, look it up, etc. 
-      -->
-      <img>
-      <p>Christina Lindsay, software developer, Charlotte, NC</p>
-      
-    </article>
+    <section><!--I am not sure if I used the best HTML container for this part. I do not completely understand the difference between <article> and <section>.-->
+      <img src="profile-pic-background-removed.png" width="200" alt="Profile picture of Christina Lindsay" class="center">
+      <!--I am ok with my content with the <section>, but I know it could "flow" better. If this is my official website, I want to edit the content at a later time.-->
+      <h3>Introduction</h3>
+      <p>The possibilites of creating attractive, functional, and easy-to-navigate websites are what motivate me as a software developer. Everyday I strive to build products that even the tech-averse can use with confidence.</p>
+      <h3>About Me</h3>
+      <p>I taught elementary music for 17 years in North Carolina. From peaceful, private piano lessons to louder, raucous classrooms bustling with children, my career was dedicated to music education. I have always been detail-oriented and also enjoy expressing my creative side in the following ways:
+        <ol>
+          <!--I did prioritize my hobbies-->
+          <li>Reading (which fuels my ideas when writing) and Writing</li>
+          <li>Singing</li>
+          <li>Cooking</li>
+          <li>Painting</li>
+        </ol>
+      <p>I learned that I could put these skills to use once I started learning the basics of coding.</p>
+      <p>I am also a weightlifter who practices perseverance and hard work in the gym. I enjoy working out and pushing myself daily. This mindset directly affects my work ethic; especially as a new software developer. Currently an engineering student at Thinkful/Chegg Skills, my learning experience has affirmed my decision of being a software engineer.</p>
+      <hr>
+      <h3>Contact Me</h3>
+      <p>Please contact me for your next project and I look forward to working with you as a software engineer.</p>
+      <ul> 
+        <!--I wanted to have the links open up in a new tab. When I'm online and click a link, I appreciate when a new tab opens, making it easy to look back at the original link if necessary. So I added target="_blank" to each link.-->
+        <li>
+          <a href="https://www.linkedin.com/in/christina-lindsay-93101682/" target="_blank"><strong>LinkedIn</strong></a></li>
+        <li>
+          <a href="https://github.com/ChrissyFran" target="_blank"><strong>GitHub</strong></a></li>
+        <li>
+          <!--I am not sure why the Email Me link is blue, but LinkedIn and GitHub are purple. I would like for them to all be the same color.-->
+          <a href="mailto:christina_lindsay85@yahoo.com?subject=Interested%20in%20Working%20with%20Christina"><strong>Email Me</strong></a>
+        </li>
+      </ul>
+    </section>
   </main>
+  <!--I wanted my <footer> to be the same color as my <header> and not to have the margin/padding be white. I am not sure how to fix this.-->
+  <footer>&copy; Christina Lindsay</footer>
   <script src="script.js"></script>
 </body>
-
 </html>
